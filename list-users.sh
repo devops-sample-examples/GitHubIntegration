@@ -38,7 +38,7 @@ function list_users_with_read_access {
 
 function helper{
        expected_cmd_args = 2
-       #  --$#  -->list of command line arguments while giving the command
+       #  --$#  --> number of arguments provided while giving the command
        if [$# -ne $expected_cmd_args]; then 
        echo "please execute the script with required cmd args"
        echo "asd"
